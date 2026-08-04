@@ -3,6 +3,8 @@
 Maryland DMV MCP — monthly registered-vehicle counts and electric/plug-in hybrid adoption
 by county and ZIP code, from the Maryland Motor Vehicle Administration (MVA).
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## Tools
 
 - `md_dmv_vehicle_registrations(county?, month?, limit?)` — registered vehicles by county
@@ -113,7 +115,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -130,14 +132,14 @@ Or connect to the full Pipeworx gateway for access to all 1392+ data sources:
 Instead of calling tools directly, you can ask questions in plain English:
 
 ```
-ask_pipeworx({ question: "your question about Maryland MVA data" })
+ask_pipeworx({ question: "your question about Md Dmv data" })
 ```
 
 The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
