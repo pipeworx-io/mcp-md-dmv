@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-md-dmv",
-  "version": "0.1.1",
-  "description": "Maryland DMV MCP — monthly registered-vehicle counts and electric/plug-in hybrid",
+  "version": "0.2.0",
+  "description": "Maryland DMV MCP — monthly registered-vehicle counts and electric/plug-in hybrid adoption by county and ZIP code, from the Maryland Motor Vehicle Administration (MVA). Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-md-dmv": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "md-dmv"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-md-dmv.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/md-dmv",
   "pipeworx": {
-    "sourceHash": "v1-e2b6930d9819cd16c9da9d1b9fe8bcec5b86d809397930cfc443b6d953f099f2",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "mode": "gateway",
+    "slug": "md-dmv",
+    "gatewaySlug": "md-dmv",
+    "sourceHash": "v1-4f3f157ea1c9119db06fa8f039f3adf8c28d1a4733e6d64888700245f18b9d06",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }

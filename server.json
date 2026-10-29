@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/md-dmv",
   "title": "Md Dmv",
-  "description": "Maryland DMV MCP — monthly registered-vehicle counts and electric/plug-in hybrid",
-  "version": "0.1.1",
+  "description": "Maryland DMV MCP — monthly registered-vehicle counts and electric/plug-in hybrid adoption by…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/md-dmv",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-md-dmv",
