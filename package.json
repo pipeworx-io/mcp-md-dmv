@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-md-dmv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Maryland DMV MCP — monthly registered-vehicle counts and electric/plug-in hybrid adoption by county and ZIP code, from the Maryland Motor Vehicle Administration (MVA). Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "md-dmv",
     "gatewaySlug": "md-dmv",
-    "sourceHash": "v1-4f3f157ea1c9119db06fa8f039f3adf8c28d1a4733e6d64888700245f18b9d06",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-9423add20978c94d62299295fe7133ef604f612db3173c77456b00f2605bd94b",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
